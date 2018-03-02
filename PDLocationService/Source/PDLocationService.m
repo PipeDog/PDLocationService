@@ -127,6 +127,10 @@
     return _geocoder;
 }
 
+- (CLLocation *)location {
+    return self.locationManager.location;
+}
+
 - (NSHashTable<id<PDLocationServiceProtocol>> *)delegates {
     if (!_delegates) {
         _delegates = [NSHashTable weakObjectsHashTable];
