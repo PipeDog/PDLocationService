@@ -15,6 +15,7 @@
 		EC61CB9C204832DE00DC3FE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC61CB9B204832DE00DC3FE1 /* main.m */; };
 		EC61CBA6204832DE00DC3FE1 /* PDLocationServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC61CBA5204832DE00DC3FE1 /* PDLocationServiceTests.m */; };
 		EC61CBB1204832DE00DC3FE1 /* PDLocationServiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC61CBB0204832DE00DC3FE1 /* PDLocationServiceUITests.m */; };
+		EC61CBC12048330F00DC3FE1 /* PDLocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = EC61CBC02048330F00DC3FE1 /* PDLocationService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		EC61CBAC204832DE00DC3FE1 /* PDLocationServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDLocationServiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC61CBB0204832DE00DC3FE1 /* PDLocationServiceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDLocationServiceUITests.m; sourceTree = "<group>"; };
 		EC61CBB2204832DE00DC3FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC61CBBF2048330F00DC3FE1 /* PDLocationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDLocationService.h; sourceTree = "<group>"; };
+		EC61CBC02048330F00DC3FE1 /* PDLocationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDLocationService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		EC61CB8B204832DE00DC3FE1 /* PDLocationService */ = {
 			isa = PBXGroup;
 			children = (
+				EC61CBBE204832F200DC3FE1 /* Source */,
 				EC61CB8C204832DE00DC3FE1 /* AppDelegate.h */,
 				EC61CB8D204832DE00DC3FE1 /* AppDelegate.m */,
 				EC61CB8F204832DE00DC3FE1 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				EC61CBB2204832DE00DC3FE1 /* Info.plist */,
 			);
 			path = PDLocationServiceUITests;
+			sourceTree = "<group>";
+		};
+		EC61CBBE204832F200DC3FE1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EC61CBBF2048330F00DC3FE1 /* PDLocationService.h */,
+				EC61CBC02048330F00DC3FE1 /* PDLocationService.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC61CBC12048330F00DC3FE1 /* PDLocationService.m in Sources */,
 				EC61CB91204832DE00DC3FE1 /* ViewController.m in Sources */,
 				EC61CB9C204832DE00DC3FE1 /* main.m in Sources */,
 				EC61CB8E204832DE00DC3FE1 /* AppDelegate.m in Sources */,
