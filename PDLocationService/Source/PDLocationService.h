@@ -12,7 +12,6 @@
 NS_ASSUME_NONNULL_BEGIN
 
 typedef void (^PDLocaionBlock)(CLLocation * _Nullable location, NSError * _Nullable error);
-typedef void (^PDPlacemarkBlock)(CLPlacemark * _Nullable placemark, NSError * _Nullable error);
 
 @protocol PDLocationServiceProtocol <NSObject>
 
